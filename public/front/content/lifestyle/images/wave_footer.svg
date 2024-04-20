@@ -1,0 +1,20 @@
+
+<svg width="1920px" height="543px" viewBox="0 0 1920 543" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M1920,0 L1920,38.7848154 C1813.24653,97.251085 1731.8812,104.960174 1675.90399,61.912083 C1504.43303,-69.9540489 1556.22522,373.290251 1202.18748,256.677628 C848.149743,140.065005 900.60504,702.459017 817.2,413.329044 C733.79496,124.199071 418.494336,614.92277 375.391469,337.98956 C346.198707,150.427897 221.068218,200.800013 0,489.105908 L0,0 L1920,0 Z" id="path-7dqab30d-g-1"></path>
+        <filter x="-5.3%" y="-11.6%" width="111.7%" height="146.3%" filterUnits="objectBoundingBox" id="filter-7dqab30d-g-2">
+            <feOffset dx="10" dy="60" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="27.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0580747378 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FT" transform="translate(0.000000, 0.000000)">
+            <path d="M1920,0 L1920,38.7726423 C1798.88112,109.311261 1714.88112,126.559757 1668,90.5181299 C1496.52904,-41.3066139 1536.03774,401.905923 1182,285.3299 C827.96226,168.753878 937.126701,743.253233 832.380699,466.992185 C727.634696,190.731137 415.87751,643.597054 372.774644,366.750763 C343.581882,179.247969 219.323667,227.535272 0,511.612673 L0,0 L1920,0 Z" id="pathBT" fill-opacity="0.2" fill="#FFFFFF"></path>
+            <g id="pathTop">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7dqab30d-g-2)" xlink:href="#path-7dqab30d-g-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7dqab30d-g-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

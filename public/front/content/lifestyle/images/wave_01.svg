@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 1920 897" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lifestyle_Wave</title>
+    <defs>
+        <path d="M0,808 L1920,807.609361 L1920,700.268189 C1813.78788,700.268189 1728.73656,640.037113 1664.84606,519.574961 C1569.0103,338.881732 1208.64328,582.76243 1181.89,335.055914 C1155.13672,87.3493982 887.058553,246.477046 666.144511,335.055914 C445.230469,423.634783 357.084213,274.319034 313.734553,99.88917 C284.834779,-16.3974058 180.256595,4.57464216 0,162.805314 L0,808 Z" id="path-1"></path>
+        <filter x="-5.3%" y="-22.1%" width="111.7%" height="129.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="10" dy="-60" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="27.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0580747378 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-yn2kyr9-rk-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F1F1F1" offset="60.7789801%"></stop>
+            <stop stop-color="#E4E4E4" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-9.0%" y="-9.0%" width="118.0%" height="118.0%" filterUnits="objectBoundingBox" id="filter-yn2kyr9-rk-4">
+            <feGaussianBlur stdDeviation="3" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lifestyle_Wave" transform="translate(-1.000000, 90.000000)">
+            <path d="M0,808 L1920,807.609779 L1920,700.383374 C1828.30018,696.368681 1750.50502,634.194657 1686.61451,513.8613 C1590.77875,333.361265 1233.03483,569.639674 1206.28155,322.198 C1179.52827,74.7563268 921.082011,224.297801 700.167969,312.781962 C479.253926,401.266124 353.849661,242.696017 310.5,68.4526502 C281.600226,-47.7095945 178.100226,-16.0287639 0,163.495142 L0,808 Z" id="bottomShadow" fill="#FFFFFF" opacity="0.200000003"></path>
+            <g id="topWave">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval" fill="url(#linearGradient-yn2kyr9-rk-3)" filter="url(#filter-yn2kyr9-rk-4)" cx="1314" cy="454" r="50"></circle>
+        </g>
+    </g>
+</svg>

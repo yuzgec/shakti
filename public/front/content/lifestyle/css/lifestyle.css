@@ -1,0 +1,38 @@
+
+/* Lifestyle Demo Styles
+================================================== */
+
+	/* Page Fonts - You can customize fonts on here: https://fonts.google.com/share?selection.family=Cabin:wght@400;500;600;700%7CComforter%20Brush%7CUbuntu%20Mono:wght@400;700 */
+	@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Comforter+Brush&family=Ubuntu+Mono:wght@400;700&display=swap');
+	.font-main{font-family: 'Cabin', sans-serif!important;}
+	.font-secondary{font-family: 'Ubuntu Mono', monospace !important;}
+	.font-tertiary{font-family: 'Comforter Brush', cursive !important;}
+
+	/* Body Options */
+	body{ font-family: 'Cabin', sans-serif; font-weight: 400; letter-spacing: 0px;}
+	body *{outline:none;}
+
+
+	/* Home section */
+	.home{height:calc(62vw + 37vh); min-height:900px; max-height: 1800px;}
+		@media only screen and (max-width:992px){.home{height:auto; padding-bottom:400px;}}
+		@media only screen and (max-width:530px){.home{padding-bottom:300px;}}
+
+
+	/* Home on horizontal screens */
+		@media (max-height:500px) and (max-width:900px){
+			.home .home-texts{max-width:50% !important; order:1!important; margin:0!important;}
+			.home .svg-shape{max-width:50% !important; order:2!important; margin:0!important;}
+		}
+
+
+	.about{margin-top:-250px;}
+		@media only screen and (max-width:1320px){
+			.about{margin-top:-170px;}
+		}
+		@media only screen and (max-width:1100px){
+			.about{margin-top:-70px;}
+		}
+		@media only screen and (max-width:560px){
+			.about{margin-top:0px;}
+		}
