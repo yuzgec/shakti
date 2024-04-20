@@ -29,8 +29,8 @@
                         </ul> 
                     </li>
                    
-                    <li><a href="{{ route('team')}}" class="nav-link">Duyurular</a></li>
-                    <li><a href="{{ route('team')}}" class="nav-link">Etkinlikler</a></li>
+                    <li><a href="{{ route('home')}}" class="nav-link">Duyurular</a></li>
+                    <li><a href="{{ route('home')}}" class="nav-link">Etkinlikler</a></li>
                     <li><a href="{{ route('contactus')}}" class="nav-link">İletişim</a></li>
                 </ul>
             </div>
