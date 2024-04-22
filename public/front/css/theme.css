@@ -347,14 +347,14 @@
 	.c-vertical-resize{cursor:ns-resize!important;}
 	.c-grab{cursor:grab;cursor:-moz-grab;cursor:-webkit-grab;}
 	.c-grab:active{cursor:grabbing;cursor:-moz-grabbing;cursor:-webkit-grabbing;}
-	.c-plus{cursor: url(../images/cursor-plus.svg) 35 35, auto !important;}
-	.c-plus-dark{cursor: url(../images/cursor-plus-dark.svg) 35 35, auto !important;}
-	.c-drag{cursor: url(../images/cursor-drag.svg) 60 25, auto !important;}
-	.c-close-dark{cursor: url(../images/cursor-close-dark.svg) 23 23, auto !important;}
-	.c-close-white{cursor: url(../images/cursor-close-white.svg) 23 23, auto !important;}
-	.c-info{cursor: url(../images/cursor-info.svg) 8 20, auto !important;}
-	.c-point,.c-point:hover,.c-point *:hover,.c-point:focus{cursor: url(../images/cursor-point.svg) 7.5 7.5, auto;}
-	.c-dot,.c-dot:hover,.c-dot *:hover,.c-dot:focus{cursor: url(../images/cursor-dot.svg) 3.5 3.5, auto;}
+	.c-plus{cursor: url(/front/images/cursor-plus.svg) 35 35, auto !important;}
+	.c-plus-dark{cursor: url(/front/images/cursor-plus-dark.svg) 35 35, auto !important;}
+	.c-drag{cursor: url(/front/images/cursor-drag.svg) 60 25, auto !important;}
+	.c-close-dark{cursor: url(/front/images/cursor-close-dark.svg) 23 23, auto !important;}
+	.c-close-white{cursor: url(/front/images/cursor-close-white.svg) 23 23, auto !important;}
+	.c-info{cursor: url(/front/images/cursor-info.svg) 8 20, auto !important;}
+	.c-point,.c-point:hover,.c-point *:hover,.c-point:focus{cursor: url(/front/images/cursor-point.svg) 7.5 7.5, auto;}
+	.c-dot,.c-dot:hover,.c-dot *:hover,.c-dot:focus{cursor: url(/front/images/cursor-dot.svg) 3.5 3.5, auto;}
 /* Box shadows */
 	.bs-none,.bs-none-hover:hover,.bs-none-focus:focus{box-shadow:none!important;}
 	.bs-xs,.bs-xs-hover:hover,.bs-xs-focus:focus{box-shadow:0px 0px 2px 0px rgba(0,0,0,0.1)!important}
@@ -930,7 +930,7 @@
 		@media only screen and (min-width:992px){.modern-nav .container-fluid{padding-left:40px;padding-right:40px;}}
 	/* Logo Settings */
 	.modern-nav a.logo{display:-ms-inline-flexbox;display:inline-flex;height:100%;width:auto;align-items:center;-ms-flex-align:center;}
-	.modern-nav a.logo img{max-width:100px;max-height:50px;}
+	.modern-nav a.logo img{max-width:150px;max-height:150px;margin-top:100px;margin-left:50px}
 	.modern-nav .logo-white, .modern-nav .logo-dark{display:none;}
 	.modern-nav:not(.scrolled) .logo-white{display:block;}
 	.modern-nav.scrolled.nav-white .logo-dark{display:block;}

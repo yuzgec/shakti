@@ -43,7 +43,7 @@ class BlogCategoryController extends Controller
         }
 
         toast(SWEETALERT_MESSAGE_CREATE, 'success');
-        return redirect()->route('service-categories.index');
+        return redirect()->route('blog.index');
 
     }
 
