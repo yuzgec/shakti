@@ -86,7 +86,29 @@ style="background-image: url('/front/content/lifestyle/images/decorative.svg';);
         <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
           
             <h4 class="mt-40 font-secondary bold fs-18 gray8">
-                KALBİNE KÖKLEN BAŞLIK
+                AİLE DİZİLİMİ
+            </h4>
+            <!-- Description -->
+            <p class="mt-15 fs-18 gray6 lh-30">
+                Açıklama yazısı gelecek... Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem nostrum iure, laudantium necessitatibus
+            </p>
+        </div>
+        <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
+          
+            <h4 class="mt-40 font-secondary bold fs-18 gray8">
+                SİNİR SİSTEMİ SEANSLARI
+            </h4>
+            <!-- Description -->
+            <p class="mt-15 fs-18 gray6 lh-30">
+                Açıklama yazısı gelecek... Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Autem nostrum iure, laudantium necessitatibus
+            </p>
+        </div>
+        <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
+          
+            <h4 class="mt-40 font-secondary bold fs-18 gray8">
+                MEDİTASYONLAR
             </h4>
             <!-- Description -->
             <p class="mt-15 fs-18 gray6 lh-30">
@@ -98,7 +120,7 @@ style="background-image: url('/front/content/lifestyle/images/decorative.svg';);
         <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
           
             <h4 class="mt-40 font-secondary bold fs-18 gray8">
-                KALBİNE KÖKLEN BAŞLIK
+                ÇEMBERLER
             </h4>
             <!-- Description -->
             <p class="mt-15 fs-18 gray6 lh-30">
@@ -110,7 +132,7 @@ style="background-image: url('/front/content/lifestyle/images/decorative.svg';);
         <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
           
             <h4 class="mt-40 font-secondary bold fs-18 gray8">
-                KALBİNE KÖKLEN BAŞLIK
+                SOMATİK YAS
             </h4>
             <!-- Description -->
             <p class="mt-15 fs-18 gray6 lh-30">
@@ -119,50 +141,8 @@ style="background-image: url('/front/content/lifestyle/images/decorative.svg';);
             </p>
         </div>
 
-        <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
-          
-            <h4 class="mt-40 font-secondary bold fs-18 gray8">
-                KALBİNE KÖKLEN BAŞLIK
-            </h4>
-            <!-- Description -->
-            <p class="mt-15 fs-18 gray6 lh-30">
-                Açıklama yazısı gelecek... Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                 Autem nostrum iure, laudantium necessitatibus
-            </p>
-        </div>
-        <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
-          
-            <h4 class="mt-40 font-secondary bold fs-18 gray8">
-                KALBİNE KÖKLEN BAŞLIK
-            </h4>
-            <!-- Description -->
-            <p class="mt-15 fs-18 gray6 lh-30">
-                Açıklama yazısı gelecek... Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                 Autem nostrum iure, laudantium necessitatibus
-            </p>
-        </div>
-        <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
-          
-            <h4 class="mt-40 font-secondary bold fs-18 gray8">
-                KALBİNE KÖKLEN BAŞLIK
-            </h4>
-            <!-- Description -->
-            <p class="mt-15 fs-18 gray6 lh-30">
-                Açıklama yazısı gelecek... Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                 Autem nostrum iure, laudantium necessitatibus
-            </p>
-        </div>
-        <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
-          
-            <h4 class="mt-40 font-secondary bold fs-18 gray8">
-                KALBİNE KÖKLEN BAŞLIK
-            </h4>
-            <!-- Description -->
-            <p class="mt-15 fs-18 gray6 lh-30">
-                Açıklama yazısı gelecek... Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                 Autem nostrum iure, laudantium necessitatibus
-            </p>
-        </div>
+       
+   
         
     </div>
 </div>
