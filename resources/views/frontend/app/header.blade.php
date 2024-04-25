@@ -1,17 +1,21 @@
 
 
- <nav id="navigation" class="modern-nav sticky fixed-height bordered link-hover-01 nav-white dropdown-radius" data-offset="0">
-    <!-- Navigation container - You can chnage container type and paddding value -->
-    <div class="container-fluid nav-container">
-        <!-- Row for cols in the nav -->
-        <div class="row nav-wrapper">
-            
-            <!-- Column for Navigation -->
-            <div class="col nav-menu">
-                <!-- Navigation links, you can add nav-links-centered class for centered links -->
-                <ul class="nav-links justify-content-start">
-                    <li class="logo-for-mobile-navigation"><img src="images/logos/logo_03_dark.svg" alt="{{ config('settings.img_alt')}}"  class="logo-white mxw-100"></li>
+<nav id="navigation" class="modern-nav fixed bordered link-hover-01 hover-dark nav-dark dropdown-radius" data-offset="54">
+ 
+
+    <div class="container nav-container">
+        <div class="row nav-wrapper justify-content-end">
+            <div class="col">
+                <a href="{{ route('home')}}" class="logo">
+                    <img src="/logoy.png" alt="{{ config('settings.img_alt')}}" class="logo-dark mxw-600">
+                    <img src="/logoy.png" alt="{{ config('settings.img_alt')}}" class="logo-white mxw-100">
+               </a>
+            </div>
+            <div class="col ml-auto nav-menu">
+                <ul class="nav-links justify-content-end">
+                    <li class="logo-for-mobile-navigation"><img src="/logow.png" alt="{{ config('settings.img_alt')}}"  class="logo-white mxw-100"></li>
                     <li><a href="{{ route('home')}}" class="nav-link">Anasayfa</a></li>
+                    <li><a href="{{ route('corporatedetail','hakkimizda')}}" class="nav-link">Hakkımda</a></li>
                     <li class="dd-toggle">
                         <a href="#" class="nav-link">Kalbine Köklen</a>
                         <ul class="dropdown-menu to-left">
@@ -51,21 +55,6 @@
                     </li>
                     <li><a href="{{ route('home')}}" class="nav-link">Somatik Yas</a></li>
 
-                  
-                </ul>
-            </div>
-
-            <div class="col">
-                <a href="{{ route('home')}}" class="logo justify-content-lg-center fullwidth">
-                    <img src="/logoy.png" alt="Shakti Komala" class="logo-dark">
-                </a>
-
-            </div>
-
-            <div class="col nav-menu visible-lg">
-                <ul class="nav-links justify-content-end">
-                    <li><a href="{{ route('corporatedetail','hakkimizda')}}" class="nav-link">Hakkımda</a></li>
-
                     <li class="dd-toggle"> <a href="#" class="nav-link">Galeri</a>
                         <ul class="dropdown-menu to-right">
                             <li><a href="{{ route('home')}}" class="nav-link">Video Galeri</a></li>
@@ -80,7 +69,7 @@
                     <li><a href="{{ route('contactus')}}" class="nav-link">İletişim</a></li>
                 </ul>
             </div>
-            <!-- Mobile Nav Button -->
+            
             <div class="mobile-nb">
                 <div class="hamburger-menu">
                     <div class="top-bun"></div>
@@ -89,8 +78,6 @@
                 </div>
             </div>
         </div>
-        <!-- End Row for cols in the nav -->
     </div>
-    <!-- End Navigation container -->
     <div class="mobile-nav-bg"></div>
 </nav>

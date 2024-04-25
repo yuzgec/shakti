@@ -930,7 +930,7 @@
 		@media only screen and (min-width:992px){.modern-nav .container-fluid{padding-left:40px;padding-right:40px;}}
 	/* Logo Settings */
 	.modern-nav a.logo{display:-ms-inline-flexbox;display:inline-flex;height:100%;width:auto;align-items:center;-ms-flex-align:center;}
-	.modern-nav a.logo img{max-width:150px;max-height:150px;margin-top:100px;margin-left:50px}
+	.modern-nav a.logo img{max-width:150px;max-height:150px;margin-left:50px}
 	.modern-nav .logo-white, .modern-nav .logo-dark{display:none;}
 	.modern-nav:not(.scrolled) .logo-white{display:block;}
 	.modern-nav.scrolled.nav-white .logo-dark{display:block;}

@@ -7,7 +7,7 @@
     @yield('customCSS')
 </head>
 
-<body class="c-dot hover-cursor">
+<body class="">
 
     @include('frontend.app.header')
 
