@@ -7,8 +7,8 @@
         <div class="row nav-wrapper justify-content-end">
             <div class="col">
                 <a href="{{ route('home')}}" class="logo">
-                    <img src="/logoy.png" alt="{{ config('settings.img_alt')}}" class="logo-dark mxw-600">
-                    <img src="/logoy.png" alt="{{ config('settings.img_alt')}}" class="logo-white mxw-100">
+                    <img src="/logoc.png" alt="{{ config('settings.img_alt')}}" class="logo-dark mxw-600">
+                    <img src="/logoc.png" alt="{{ config('settings.img_alt')}}" class="logo-white mxw-100 mt-20">
                </a>
             </div>
             <div class="col ml-auto nav-menu">
