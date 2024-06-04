@@ -14,27 +14,12 @@
             <div class="col ml-auto nav-menu">
                 <ul class="nav-links justify-content-end">
                     <li class="logo-for-mobile-navigation"><img src="/logow.png" alt="{{ config('settings.img_alt')}}"  class="logo-white mxw-100"></li>
-                    <li><a href="{{ route('home')}}" class="nav-link">Anasayfa</a></li>
+                    <li><a href="{{ route('home')}}" class="nav-link"><i class="ti-home fs-16 white"></i></a></li>
                     <li><a href="{{ route('corporatedetail','hakkimizda')}}" class="nav-link">Hakkımda</a></li>
                     <li class="dd-toggle">
                         <a href="#" class="nav-link">Kalbine Köklen</a>
                         <ul class="dropdown-menu to-left">
-                            <li class="dd-toggle">
-                                <a href="#" class="nav-link">Meditasyonlar</a>
-                                <ul class="dropdown-menu to-right">
-                                    @foreach ($Service->where('category', 8) as $item) 
-                                        <li class="dd-toggle"><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
-                                    @endforeach
-                                </ul>
-                            </li>
-                            <li class="dd-toggle">
-                                <a href="#" class="nav-link">Çemberler</a>
-                                <ul class="dropdown-menu to-right">
-                                    @foreach ($Service->where('category', 9) as $item) 
-                                        <li><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
-                                    @endforeach
-                                </ul>
-                            </li>
+
                             <li class="dd-toggle">
                                 <a href="#" class="nav-link">Sinir Sistemi Seansları</a>
                                 <ul class="dropdown-menu to-right">
@@ -43,6 +28,36 @@
                                     @endforeach
                                 </ul>
                             </li>
+
+
+                            <li class="dd-toggle">
+                                <a href="#" class="nav-link">Somatik Yas</a>
+                                <ul class="dropdown-menu to-right">
+                                    @foreach ($Service->where('category', 11) as $item) 
+                                        <li><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
+                                    @endforeach
+                                </ul>
+                            </li>
+
+                            <li class="dd-toggle">
+                                <a href="#" class="nav-link">Çemberler</a>
+                                <ul class="dropdown-menu to-right">
+                                    @foreach ($Service->where('category', 9) as $item) 
+                                        <li><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
+                                    @endforeach
+                                </ul>
+                            </li>
+
+                            <li class="dd-toggle">
+                                <a href="#" class="nav-link">Meditasyonlar</a>
+                                <ul class="dropdown-menu to-right">
+                                    @foreach ($Service->where('category', 8) as $item) 
+                                        <li class="dd-toggle"><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
+                                    @endforeach
+                                </ul>
+                            </li>
+                          
+                         
                            
                         </ul>
                     </li>
@@ -53,7 +68,7 @@
                             @endforeach
                         </ul> 
                     </li>
-                    <li><a href="{{ route('home')}}" class="nav-link">Somatik Yas</a></li>
+
 
                     <li class="dd-toggle"> <a href="#" class="nav-link">Galeri</a>
                         <ul class="dropdown-menu to-right">
@@ -63,8 +78,6 @@
                         </ul> 
                     </li>
                    
-                    <li><a href="{{ route('home')}}" class="nav-link">Öneriler</a></li>
-                    <li><a href="{{ route('home')}}" class="nav-link">Duyurular</a></li>
                     <li><a href="{{ route('home')}}" class="nav-link">Etkinlikler</a></li>
                     <li><a href="{{ route('contactus')}}" class="nav-link">İletişim</a></li>
                 </ul>
