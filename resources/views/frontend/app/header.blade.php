@@ -8,7 +8,7 @@
             <div class="col">
                 <a href="{{ route('home')}}" class="logo">
                     <img src="/logoc.png" alt="{{ config('settings.img_alt')}}" class="logo-dark mxw-600">
-                    <img src="/logoc.png" alt="{{ config('settings.img_alt')}}" class="logo-white mxw-50">
+                    <img src="/logoc.png" alt="{{ config('settings.img_alt')}}" class="logo-white mxw-100">
                </a>
             </div>
             <div class="col ml-auto nav-menu">
