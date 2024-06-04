@@ -2,14 +2,13 @@
 /* Lifestyle Demo Styles
 ================================================== */
 
-	/* Page Fonts - You can customize fonts on here: https://fonts.google.com/share?selection.family=Cabin:wght@400;500;600;700%7CComforter%20Brush%7CUbuntu%20Mono:wght@400;700 */
-	@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Comforter+Brush&family=Ubuntu+Mono:wght@400;700&display=swap');
-	.font-main{font-family: 'Cabin', sans-serif!important;}
+	/* Page Fonts - You can customize fonts on here: https://fonts.google.com/share?selection.family=Raleway:wght@400;500;600;700%7CComforter%20Brush%7CUbuntu%20Mono:wght@400;700 */
+	.font-main{font-family: 'Raleway', sans-serif!important;}
 	.font-secondary{font-family: 'Ubuntu Mono', monospace !important;}
 	.font-tertiary{font-family: 'Comforter Brush', cursive !important;}
 
 	/* Body Options */
-	body{ font-family: 'Cabin', sans-serif; font-weight: 400; letter-spacing: 0px;}
+	body{ font-family: 'Raleway', sans-serif; font-weight: 400; letter-spacing: 0px;}
 	body *{outline:none;}
 
 

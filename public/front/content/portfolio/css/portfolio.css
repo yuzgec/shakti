@@ -3,12 +3,11 @@
 ================================================== */
 
 	/* Page Fonts */
-	@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
-	.font-main{font-family: 'Outfit', sans-serif !important;}
+	.font-main{font-family: 'Raleway', sans-serif !important;}
 	/* This demo doesn't have secondary font. You can add while adding .font-secondary{} class */
 
 	/* Body Options */
-	body{ font-family: 'Outfit', sans-serif; font-weight: 300; letter-spacing: 0.3px;}
+	body{ font-family: 'Raleway', sans-serif; font-weight: 300; letter-spacing: 0.3px;}
 	body *{outline:none;}
 
 
