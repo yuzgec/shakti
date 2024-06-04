@@ -77,7 +77,9 @@
                             <li><a href="{{ route('home')}}" class="nav-link">Podcast</a></li>
                         </ul> 
                     </li>
-                   
+
+                    <li><a href="{{ route('home')}}" class="nav-link">Yazılar & Şiirler</a></li>
+
                     <li><a href="{{ route('home')}}" class="nav-link">Etkinlikler</a></li>
                     <li><a href="{{ route('contactus')}}" class="nav-link">İletişim</a></li>
 
