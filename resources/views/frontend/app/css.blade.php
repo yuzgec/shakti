@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="/front/css/plugins.css?v=4.0"/>
     <link rel="stylesheet" href="/front/css/revolutionslider/settings.css" />
-    <link rel="stylesheet" href="/front/css/theme.css?v=12"/>
+    <link rel="stylesheet" href="/front/css/theme.css?v=13"/>
     <link rel="stylesheet" href="/front/content/portfolio/css/portfolio.css?v=4.0" />
     <link rel="stylesheet" href="/front/content/gage/css/gage.css?v=4.0" />
     <link rel="stylesheet" href="/front/css/skins/skin-gage.css?ver=2" />
