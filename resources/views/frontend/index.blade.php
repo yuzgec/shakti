@@ -47,7 +47,7 @@
 
 <section id="about" class="mt-30 relative">
     <!-- Container for all -->
-    <div class="container-fluid">
+    <div class="container">
         <!-- Row for both cols -->
         <div class="row align-items-end">
             <!-- Image -->
@@ -118,7 +118,7 @@ class="services pb-100 mt-50"
 data-bg="url(/front/content/lifestyle/images/decorative.svg)"
 data-was-processed="true"
 style="background-image: url('/front/content/lifestyle/images/decorative.svg';);">
-<div class="container-fluid">
+<div class="container">
     <div class="row px-20 px-0-sm">
         <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
           
