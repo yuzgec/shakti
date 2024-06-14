@@ -61,7 +61,7 @@
                     class="col-lg-6 offset-lg-0 col-sm-10 col-xs-12 offset-sm-1 offset-xs-0 pl-50 pl-15-sm relative mt-70-sm">
                     <!-- Text on bg with tertiary font -->
                     <div
-                        class="absolute fs-100 fs-50-sm font-tertiary move-left-half move-none-sm ml-200 mt--50 ml-0-sm nowrap zi-0 unselectable"
+                        class="absolute fs-60 fs-50-sm font-tertiary move-left-half move-none-sm ml-200 mt--50 ml-0-sm nowrap zi-0 unselectable"
                         data-color="#006533"
                         style="color: rgb(0, 0, 0);">
                         Skahti Komala ile Kalbine Köklen
