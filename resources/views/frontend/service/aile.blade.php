@@ -42,7 +42,7 @@
             <div class="col-md-9 col-12 pt-50">
                 <div class="fs-16 fs-16-sm gray7 ls-0 lh-35 light">
                     @if($Detay->getFirstMediaUrl('page'))
-                    <img src="{{ (!$Detay->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $Detay->getFirstMediaUrl('page')}}" class="img-fluid mb-20" alt="{{ $Detay->title}}"/>
+                    <img src="{{ (!$Detay->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $Detay->getFirstMediaUrl('page', 'thumb')}}" class="img-fluid mb-20" alt="{{ $Detay->title}}"/>
                     @endif
                     {!! $Detay->desc !!}
                 </div>
