@@ -12,4 +12,4 @@
     <link rel="stylesheet" href="/front/content/gage/css/gage.css?v=4.0" />
     <link rel="stylesheet" href="/front/css/skins/skin-gage.css?ver=2" />
     <link rel="stylesheet" href="/front/content/lifestyle/css/lifestyle.css?v=4.0" />
-    <link rel="stylesheet" href="/front/css/blog.css" />
+    <link rel="stylesheet" href="/front/css/blog.css?ver=3" />
