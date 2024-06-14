@@ -21,50 +21,46 @@
                         <ul class="dropdown-menu to-left">
 
                             <li class="dd-toggle">
-                                <a href="#" class="nav-link">Sinir Sistemi Seansları</a>
+                                <a href="{{ route('sinirsistemi')}}" class="nav-link">Sinir Sistemi Seansları</a>
                                 <ul class="dropdown-menu to-right">
                                     @foreach ($Service->where('category', 12) as $item) 
-                                        <li><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
+                                        <li><a href="{{ route('sinir', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
                                     @endforeach
                                 </ul>
                             </li>
-
-
                             <li class="dd-toggle">
-                                <a href="#" class="nav-link">Somatik Yas</a>
+                                <a href="{{ route('somatikyas')}}" class="nav-link">Somatik Yas</a>
                                 <ul class="dropdown-menu to-right">
                                     @foreach ($Service->where('category', 11) as $item) 
-                                        <li><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
+                                        <li><a href="{{ route('somatik', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
                                     @endforeach
                                 </ul>
                             </li>
 
                             <li class="dd-toggle">
-                                <a href="#" class="nav-link">Çemberler</a>
+                                <a href="{{ route('cemberler')}}" class="nav-link">Çemberler</a>
                                 <ul class="dropdown-menu to-right">
                                     @foreach ($Service->where('category', 9) as $item) 
-                                        <li><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
+                                        <li><a href="{{ route('cember', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
                                     @endforeach
                                 </ul>
                             </li>
 
                             <li class="dd-toggle">
-                                <a href="#" class="nav-link">Meditasyonlar</a>
+                                <a href="{{ route('meditasyonlar')}}" class="nav-link">Meditasyonlar</a>
                                 <ul class="dropdown-menu to-right">
                                     @foreach ($Service->where('category', 8) as $item) 
-                                        <li class="dd-toggle"><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
+                                        <li><a href="{{ route('meditasyon', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
                                     @endforeach
                                 </ul>
                             </li>
-                          
-                         
                            
                         </ul>
                     </li>
-                    <li class="dd-toggle"> <a href="#" class="nav-link">Aile Dizilimi</a>
+                    <li class="dd-toggle"> <a href="{{ route('ailedizimi')}}" class="nav-link">Aile Dizimi</a>
                         <ul class="dropdown-menu to-right">
                             @foreach ($Service->where('category', 10) as $item) 
-                                <li><a href="{{ route('service', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
+                                <li><a href="{{ route('aile', $item->slug)}}" class="nav-link">{{ $item->title }}</a></li>
                             @endforeach
                         </ul> 
                     </li>
@@ -78,9 +74,10 @@
                         </ul> 
                     </li>
 
-                    <li><a href="{{ route('home')}}" class="nav-link">Yazılar & Şiirler</a></li>
+                    <li><a href="{{ route('yazilar')}}" class="nav-link">Yazılar</a></li>
+                    <li><a href="{{ route('siirler')}}" class="nav-link">Şiirler</a></li>
 
-                    <li><a href="{{ route('home')}}" class="nav-link">Etkinlikler</a></li>
+                    <li><a href="{{ route('etkinlikler')}}" class="nav-link">Etkinlik</a></li>
                     <li><a href="{{ route('contactus')}}" class="nav-link">İletişim</a></li>
 
                     <li class="extra-links">
@@ -120,7 +117,7 @@
                         <a
                             href="tel:{{ config('settings.telefon1')}}"
                             target="_blank"
-                            class="nav-button bg-colored bg-colored1-hover white fs-11 uppercase bold py-15"
+                            class="nav-button bg-colored bg-colored1-hover white fs-12 uppercase bold py-15"
                             title="Instagram">{{ config('settings.telefon1')}}</a>
                     </li>                </ul>
             </div>

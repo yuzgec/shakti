@@ -3,7 +3,7 @@
 <section id="home" class="relative white height-40vh height-60vh-sm align-items-center d-flex" data-bg="url(/header-bg.jpg)">
     <div class="container-md">
         <div class="t-center">
-            <h5 class="fs-11 ls-4 semibold white uppercase">
+            <h5 class="fs-11 ls-4 semibold white uppercase mt-100">
                 Shakti Komala
             </h5>
             <h1 class="mt-15 bold ls--1 ls-0-sm lh-md">
@@ -25,7 +25,7 @@
                             <i class="ti-angle-right fs-7 mx-15 mx-5-sm"></i>
                             <a href="{{ route('home')}}">Anasayfa</a>
                             <i class="ti-angle-right fs-7 mx-15 mx-5-sm"></i>
-                            <a href="#" class="stay c-default">Kalbine Köklen</a>
+                            <a href="#" class="stay c-default">Meditasyon</a>
 
                             <i class="ti-angle-right fs-7 mx-15 mx-5-sm"></i>
                             <a href="#" class="stay c-default">{{ $Detay->title}}</a>
@@ -41,6 +41,9 @@
         <div class="row">
             <div class="col-md-9 col-12 pt-50">
                 <div class="fs-16 fs-16-sm gray7 ls-0 lh-35 light">
+                    @if($Detay->getFirstMediaUrl('page'))
+                    <img src="{{ (!$Detay->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $Detay->getFirstMediaUrl('page')}}" class="img-fluid mb-20" alt="{{ $Detay->title}}"/>
+                    @endif
                     {!! $Detay->desc !!}
                 </div>
             </div>

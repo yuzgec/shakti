@@ -3,7 +3,7 @@
         <div class="row row-eq-height">
 
             <div class="col-lg-3 col-sm-6 mt-40 t-left">
-                <img src="/logo.png" class="block width-200" alt="Yolo Fitness - Karşıyaka">
+                <img src="/logoc.png" class="block width-200" alt="Shakti Komala">
             </div>
 
             <div class="col-lg-3 col-sm-6 mt-40">
@@ -40,13 +40,11 @@
             <div class="col-lg-3 col-sm-6 mt-40">
                 <h5 class="gray9 fs-15">KALBİNE KÖKLEN</h5>
                 <ul class="list list-lg px-0 gray5 pt-20 fs-16">
-                    @foreach ($Service->where('category', 1) as $item)
-                        <li>
-                            <a href="{{ route('service', $item->slug)}}" title="{{ $item->title }}" class="white-hover">
-                                {{ $item->title }}
-                            </a>
-                        </li>
-                    @endforeach
+                    <li> <a href="{{ route('ailedizimi')}}" title="Aile Dizimi">Aile Dizimi</a></li>
+                    <li> <a href="{{ route('sinirsistemi')}}" title="Sinir Sistemi Seansları">Sinir Sistemi Seansları</a></li>
+                    <li> <a href="{{ route('somatikyas')}}" title="Somatik Yaz">Somatik Yaz</a></li>
+                    <li> <a href="{{ route('cemberler')}}" title="Çemberler">Çemberler</a></li>
+                    <li> <a href="{{ route('meditasyonlar')}}" title="Meditasyonlar">Meditasyonlar</a></li>
                 </ul>
             </div>               
             <div

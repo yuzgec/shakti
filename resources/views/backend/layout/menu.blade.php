@@ -43,23 +43,28 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" /><line x1="12" y1="12" x2="20" y2="7.5" /><line x1="12" y1="12" x2="12" y2="21" /><line x1="12" y1="12" x2="4" y2="7.5" /><line x1="16" y1="5.25" x2="8" y2="9.75" /></svg>
                     </span>
                     <span class="nav-link-title">
-                      İçerik Yönetimi
+                      Kalbine Köklen
                     </span>
                 </a>
                 <div class="dropdown-menu">
                     <div class="dropdown-menu-columns">
                         <div class="dropdown-menu-column">
-                            <a class="dropdown-item" href="{{route('service.index', 'category=1&name=Kalbine Köklen')}}" >
+                            <a class="dropdown-item" href="{{route('service.index', 'category=10&name=Aile Dizimi')}}" >
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 6 15 12 9 18" /></svg>
-                                Kalbine Köklen
+                                Aile Dizimi
                             </a>
-                            <a class="dropdown-item" href="{{route('service.index', 'category=2&name=Hizmet')}}" >
+                            <a class="dropdown-item" href="{{route('service.index', 'category=8&name=Meditasyon')}}" >
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 6 15 12 9 18" /></svg>
-                                Hizmet Yönetimi
+                                Meditasyon
                             </a>
-                            <a class="dropdown-item" href="{{route('service.index', 'category=7&name=Workshop')}}" >
+                            <a class="dropdown-item" href="{{route('service.index', 'category=9&name=Çemberler')}}" >
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 6 15 12 9 18" /></svg>
-                                Workshop Yönetimi
+                                Çemberler
+                            </a>
+
+                            <a class="dropdown-item" href="{{route('service.index', 'category=11&name=Somatik Yas')}}" >
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 6 15 12 9 18" /></svg>
+                                Somatik Yas
                             </a>
                            
                             <a class="dropdown-item" href="{{route('service-categories.index')}}" >

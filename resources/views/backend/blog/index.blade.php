@@ -38,10 +38,11 @@
                     @foreach($All as $item)
                     <tr id="page_{{$item->id}}">
                         <td>
-                            <span class="avatar me-2" style="background-image: url({{$item->getFirstMediaUrl()}})"></span>
+                            <span class="avatar me-2" style="background-image: url({{$item->getFirstMediaUrl('page', 'small')}})"></span>
                         </td>
                         <td>
-                            <div class="font-weight-medium">{{ $item->title }}</div>
+                            <div class="font-weight-medium">
+                                <a  href="{{ route('blog.edit', $item->id) }}" >{{ $item->title }}</a></div>
                         </td>
                         <td>
                             <label class="form-check form-check-single form-switch">

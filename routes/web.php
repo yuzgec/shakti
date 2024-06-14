@@ -13,14 +13,35 @@ Route::get('/kurumsal', [HomeController::class, 'corporate'])->name('corporate')
 Route::get('/sayfa/{url}', [HomeController::class, 'corporatedetail'])->name('corporatedetail');
 
 //Hizmetler Route
-Route::get('/hizmetlerimiz', [HomeController::class, 'services'])->name('services');
-Route::get('/kalbinekoklen/{url}', [HomeController::class, 'service'])->name('service');
+Route::get('/hizmetlerimiz', [HomeController::class, 'services'])->name('service');
+Route::get('/kalbinekoklen/{url}', [HomeController::class, 'service'])->name('servicedetail');
 
-Route::get('/studyolarimiz', [HomeController::class, 'studios'])->name('studios');
-Route::get('/studio/{url}', [HomeController::class, 'studio'])->name('studio');
+Route::get('/sinir-sistemi-senaslari', [HomeController::class, 'sinirsistemi'])->name('sinirsistemi');
+Route::get('/sinir-sistemi-seansi/{url}', [HomeController::class, 'sinir'])->name('sinir');
 
-Route::get('/kampanyalarimiz', [HomeController::class, 'campaigns'])->name('campaigns');
-Route::get('/kampanya/{url}', [HomeController::class, 'campaign'])->name('campaign');
+Route::get('/somatikyas', [HomeController::class, 'somatikyas'])->name('somatikyas');
+Route::get('/somatik-yas/{url}', [HomeController::class, 'somatik'])->name('somatik');
+
+Route::get('/cemberler', [HomeController::class, 'cemberler'])->name('cemberler');
+Route::get('/cember/{url}', [HomeController::class, 'cember'])->name('cember');
+
+Route::get('/meditasyonlar', [HomeController::class, 'meditasyonlar'])->name('meditasyonlar');
+Route::get('/meditasyon/{url}', [HomeController::class, 'meditasyon'])->name('meditasyon');
+
+
+Route::get('/ailedizimi', [HomeController::class, 'ailedizimi'])->name('ailedizimi');
+Route::get('/aile-dizimi/{url}', [HomeController::class, 'aile'])->name('aile');
+
+Route::get('/yazilar', [HomeController::class, 'yazilar'])->name('yazilar');
+Route::get('/yazi/{url}', [HomeController::class, 'yazi'])->name('yazi');
+
+Route::get('/siirler', [HomeController::class, 'siirler'])->name('siirler');
+Route::get('/siir/{url}', [HomeController::class, 'siir'])->name('siir');
+
+Route::get('/etkinlikler', [HomeController::class, 'etkinlikler'])->name('etkinlikler');
+Route::get('/etkinlik/{url}', [HomeController::class, 'etkinlik'])->name('etkinlik');
+
+
 
 //Hizmetler Route
 

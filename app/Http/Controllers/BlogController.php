@@ -36,16 +36,21 @@ class BlogController extends Controller
         $New->seo_key = $request->seo_key;
         $New->seo_title = $request->seo_title;
 
+
         if($request->hasfile('image')){
-            $New->addMedia($request->image)->withResponsiveImages()->toMediaCollection('page');
+            $New->addMedia($request->image)->toMediaCollection('page');
+        }
+
+
+        if($request->hasfile('cover')){
+            $New->addMedia($request->image)->toMediaCollection('page');
         }
 
         if($request->hasfile('gallery')) {
             foreach ($request->gallery as $item){
-                $New->addMedia($item)->withResponsiveImages()->toMediaCollection('gallery');
+                $New->addMedia($item)->toMediaCollection('gallery');
             }
         }
-
 
         $New->save();
         toast(SWEETALERT_MESSAGE_CREATE,'success');
@@ -82,18 +87,24 @@ class BlogController extends Controller
         $Update->seo_key = $request->seo_key;
         $Update->save();
 
-        if($request->removeImage == "1"){
-            $Update->media()->where('collection_name', 'page')->delete();
+  
+        if($request->removeCoverImage == "1"){
+            $Update->media()->where('collection_name', 'cover')->delete();
         }
 
         if ($request->hasFile('image')) {
             $Update->media()->where('collection_name', 'page')->delete();
-            $Update->addMedia($request->image)->withResponsiveImages()->toMediaCollection('page');
+            $Update->addMedia($request->image)->toMediaCollection('page');
+        }
+
+        if ($request->hasFile('cover')) {
+            $Update->media()->where('collection_name', 'cover')->delete();
+            $Update->addMedia($request->cover)->toMediaCollection('cover');
         }
 
         if($request->hasfile('gallery')) {
             foreach ($request->gallery as $item){
-                $Update->addMedia($item)->withResponsiveImages()->toMediaCollection('gallery');
+                $Update->addMedia($item)->toMediaCollection('gallery');
             }
         }
 

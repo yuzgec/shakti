@@ -14,7 +14,7 @@ class BlogRequest extends FormRequest
     public function rules()
     {
         return [
-            'title'                 => 'required|min:6|max:99|unique:blog,title,'.$this->id,
+            'title'                 => 'required|min:3|max:99|unique:blog,title,'.$this->id,
             'category'              => 'required',
         ];
     }
@@ -24,7 +24,7 @@ class BlogRequest extends FormRequest
         return [
             'title.required'            => 'Blog başlığını giriniz',
             'title.max'                 => 'Blog başlığı en fazla 99 karakter olabilir',
-            'title.min'                 => 'Blog başlığı en fazla 6 karakter olabilir',
+            'title.min'                 => 'Blog başlığı en az 3 karakter olabilir',
             'title.unique'              => 'Blog başlığı daha önce eklenmiş',
             'category.required'         => 'Blog Kategori seçimi zorunludur.'
         ];
