@@ -41,20 +41,18 @@
         <div class="row t-left t-center-sm align-items-center">
             @foreach ($All as $item)
             <div class="col-lg-4 col-12 mt-30 perspective-lg relative zi-hover">
-                <div class="bg-white bs-lg-hover dark2 slow c-default py-40 px-40">
-                    <div class="fs-45">
-                        <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb')}}" class="img-fluid" alt="{{ $item->title}}"/>
-                    </div>
-                    <h5 class="fs-18 medium mt-25">
-                        <a href="{{ route('yazi', $item->slug)}}" title="{{ $item->title}}">
+                <a href="{{ route('yazi', $item->slug)}}" title="{{ $item->title}}">
+                    <div class="bg-white bs-lg-hover dark2 slow c-default py-40 px-40">
+                        <div class="fs-45">
+                            <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb')}}" class="img-fluid" alt="{{ $item->title}}"/>
+                        </div>
+                        <h5 class="fs-18 medium mt-25">
                             <b>{{ $item->title }}</b>
                             <p>{{$item->seo_key}}</p>
-                        </a>
-                    </h5>
-                   
-                </div>
+                        </h5>
+                    </div>
+                </a>
             </div>
-
             @endforeach
         </div>
     </div>
