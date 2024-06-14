@@ -36,13 +36,9 @@
     </div>
 </section>
 <div class="container mt-100">
-    <!-- Row for sticky item & container -->
     <div class="row">
-        <!-- Col -->
         <div class="col-lg-4 col-12">
-            <!-- Keeper for sticky element -->
             <div class="sticky-keeper">
-                <!-- Sticky container - you can edit top spacing and container to fix. -->
                 <div
                     class="sticky-container before-cont"
                     data-top-spacing="70"
@@ -52,16 +48,11 @@
 
                 </div>
             </div>
-            <!-- End keeper for sticky element -->
         </div>
-        <!-- End col -->
-        <!-- Col -->
         <div id="container1" class="col-lg-8 col-12 fs-20 gray7 light mb-50">
             {!! $Detay->desc!!}
         </div>
-        <!-- End col -->
     </div>
-    <!-- End row for sticky item & container -->
 </div>
 <section id="portfolio-grid" class="pb-60 pt-50 bt-1 b-gray1 b-solid lightbox_gallery">
     <div class="container ">

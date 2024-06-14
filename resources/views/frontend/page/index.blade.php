@@ -33,13 +33,24 @@
         </div>
     </div>
 </section>
-<div id="elementDescription" class="container py-100 py-100-sm">
+<div class="container mt-100">
+    <div class="row">
+        <div class="col-lg-4 col-12">
+            <div class="sticky-keeper">
+                <div
+                    class="sticky-container before-cont"
+                    data-top-spacing="70"
+                    data-fix-container="#container1"
+                    style="top: 0px; position: absolute; max-width: 416px;">
+                    <img src="{{ (!$Detay->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $Detay->getFirstMediaUrl('page')}}" class="img-fluid" alt="{{ $Detay->title}}"/>
 
-    <div class="fs-16 fs-16-sm gray7 ls-0 lh-35 light">
-        {!! $Detay->desc !!}
+                </div>
+            </div>
+        </div>
+        <div id="container1" class="col-lg-8 col-12 fs-20 gray7 light mb-50">
+            {!! $Detay->desc!!}
+        </div>
     </div>
-
 </div>
-
 
 @endsection

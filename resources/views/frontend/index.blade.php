@@ -123,7 +123,7 @@ style="background-image: url('/front/content/lifestyle/images/decorative.svg';);
         <div class="mt-20 col-lg-4 col-md-6 col-sm-6 col-xs-12 pr-50 px-15-sm">
           
             <h4 class="mt-40 font-secondary bold fs-18 gray8">
-                AİLE DİZİLİMİ
+                AİLE DİZİMİ
             </h4>
             <!-- Description -->
             <p class="mt-15 fs-18 gray6 lh-30">
